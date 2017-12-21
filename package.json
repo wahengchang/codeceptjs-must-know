@@ -1,0 +1,28 @@
+{
+  "name": "codeceptjs-must-know",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google_test.js",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "nightmare-upload": "^0.1.1",
+    "webdriverio": "^4.9.11"
+  },
+  "devDependencies": {
+    "codeceptjs-webdriverio": "^1.1.0",
+    "selenium-standalone": "^6.12.0"
+  },
+  "scripts": {
+    "test": "./node_modules/codeceptjs-webdriverio/node_modules/.bin/codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/codeceptjs-must-know.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/codeceptjs-must-know/issues"
+  },
+  "homepage": "https://github.com/wahengchang/codeceptjs-must-know#readme"
+}

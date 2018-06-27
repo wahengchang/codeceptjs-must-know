@@ -22,4 +22,6 @@ $ ./node_modules/selenium-standalone/bin/selenium-standalone start
 ## Run Test
 ```
 $ npm run test
+
+$ npm run test:nightmare
 ```

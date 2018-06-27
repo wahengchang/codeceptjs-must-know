@@ -13,7 +13,8 @@
     "selenium-standalone": "^6.12.0"
   },
   "scripts": {
-    "test": "./node_modules/codeceptjs-webdriverio/node_modules/.bin/codeceptjs run --steps"
+    "test": "codeceptjs run --steps",
+    "test:nightmare": "codeceptjs run --config=./codecept.nightmare.json"
   },
   "repository": {
     "type": "git",
